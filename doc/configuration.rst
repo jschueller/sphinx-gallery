@@ -2415,7 +2415,7 @@ embedded in the html output.
 Write computation times
 =======================
 
-Set to ``False`` if you want to omit computation times from all gallery outputs.
+Set ``write_computation_times`` to ``False`` if you want to omit computation times from all gallery outputs.
 This helps with reproducible builds.
 Default is ``True`` unless the ``SOURCE_DATE_EPOCH`` environment variable is set.
 
